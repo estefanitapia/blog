@@ -76,4 +76,47 @@ footer p {
   background: radial-gradient(circle, rgba(168,121,143,1) 0%, rgba(0,0,0,1) 100%);
 }
 
+/*---------- Index ----------*/
+main {
+  height: auto;
+  background: rgb(168,121,143);
+  background: radial-gradient(circle, rgba(168,121,143,1) 0%, rgba(0,0,0,1) 100%);
+}
 
+.section1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-evenly;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-size: 3.5rem;
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+
+.section1 img {
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.gallery {
+  padding: 1vh 1vh 1vh 1vh;
+}
+
+.gallery img:hover {
+  opacity: 0.5;
+}
+
+.gallery img {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.gallery img:hover {
+  border: 1px solid rgb(255, 255, 255);
+}
