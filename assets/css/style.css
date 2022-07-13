@@ -29,5 +29,51 @@ nav {
 }
 
 /*---------- Footer ----------*/
+.contenedor-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(168,121,143);
+  background: radial-gradient(circle, rgba(168,121,143,1) 0%, rgba(0,0,0,1) 100%);
+}
 
-/*---------- Index ----------*/
+.img-footer {
+  width: 130px;
+  height: auto;
+  padding-left: 30px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  padding-right: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-links {
+  padding-right: 100px;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  padding-left: 250px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  background-color: #f2f2f2;
+}
+
+footer p {
+  background: rgb(168,121,143);
+  background: radial-gradient(circle, rgba(168,121,143,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+
