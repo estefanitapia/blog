@@ -1,0 +1,33 @@
+/* Reset y estilos generales */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+
+/*---------- Header ----------*/
+.encabezado {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 130px;
+  background-color: black;
+}
+
+.img-logo {
+  width: 100px;
+  height: auto;
+  padding-left: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+
+/*---------- Footer ----------*/
+
+/*---------- Index ----------*/
